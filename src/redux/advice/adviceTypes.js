@@ -1,0 +1,1 @@
+export const GET_ADVICE = 'GET_ADVICE'
