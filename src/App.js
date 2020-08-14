@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 import './App.css';
-//import Advice from './components/Advice';
+import Advice from './components/Advice';
 //import HooksAdvice from './components/HooksAdvice';
-import ReduxAdvice from './components/ReduxAdvice';
+//import ReduxAdvice from './components/ReduxAdvice';
 import {Provider} from 'react-redux'
 import store from './redux/store'
 
@@ -13,9 +13,9 @@ export class App extends Component {
     return (
       <Provider store={store}>
         <div className="app">
-          {/* <Advice/> */}
+          <Advice/> 
           {/* <HooksAdvice/>  */}
-          <ReduxAdvice/>
+          {/* <ReduxAdvice/>  */}
         </div>
       </Provider>
     )
